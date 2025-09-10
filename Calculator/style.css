@@ -1,8 +1,19 @@
 .in{
     height: 100px;
-    width: 392px;
-    background-color: transparent;
+    width: 292px;
+    background: transparent;
     border: none;
+    outline: none;
+    color: white;
+    font-size: 50px;
+}
+
+.MainDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
 }
 .main{
     background-color: black;

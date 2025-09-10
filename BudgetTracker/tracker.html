@@ -15,24 +15,35 @@
     <div class="main1">
         <div class="main2">
             <h4 class="balance">Your Balance</h4>
-            <h1 class="val">$890.00</h1>
+            <h1 class="val" id="tot">$890.00</h1>
         </div>
         <div class="main4">
-            <p class="main5">INCOME &ThickSpace; &ThickSpace; &ThickSpace; &ThickSpace; &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;Expense</p>
-            <p class="main6">$1000.00 &ThickSpace; &ThickSpace; &ThickSpace; &ThickSpace; &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;<span class="r">$110.00</span> </p>
+            <div class="main7">
+                <p class="main5">INCOME</p>
+                <p class="main5">Expense</p>
+            </div>
+            <div class="main7">
+                <p class="main6" id="income">$1000.00</p>
+                <p class="main6 r" id="expense">$110.00</p>
+            </div>
+           
         </div>
-        <!-- <div>
-            <h4>History</4>
-        </div> -->
+        <div class="history">
+            <h4>History</h4>
+            <ul id="history">
+
+            </ul>
+        </div>
+        
         <div>
             <h4>Add New Transaction</h4>
             <label for="">Name</label><br>
-            <input type="text" name="" id="nm" placeholder="Enter Name of Transaction...." class="in"><br><br>
+            <input type="text" name="" id="name" placeholder="Enter Name of Transaction...." class="in"><br><br>
             <label for="">Amount</label><br>
-            <input type="text" name="" id="nm" placeholder="Enter Amount...." class="in"><br><br>
+            <input type="text" name="" id="amount" placeholder="Enter Amount...." class="in"><br><br>
         </div>
         <div>
-            <button class="in1">Add Transaction</button>
+            <button class="in1" onclick="BT()">Add Transaction</button>
         </div>
     </div>
     </section>
