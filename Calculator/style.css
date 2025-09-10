@@ -1,0 +1,188 @@
+.in{
+    height: 100px;
+    width: 392px;
+    background-color: transparent;
+    border: none;
+}
+.main{
+    background-color: black;
+    counter-reset: white;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.main1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.main2{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.btnAC{
+    background-color: grey;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: none;
+    font-size: 12pt;
+}
+
+.btnDel{
+    background-color: grey;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: none;
+    font-size: 12pt;   
+}
+
+.btnModule{
+     background-color: grey;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: none;
+    font-size: 12pt; 
+}
+
+.btnDiv{
+    background-color: rgb(255, 132, 0);
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: none;
+    font-size: 12pt; 
+}
+
+.btn7{
+     background-color: grey;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: none;
+    font-size: 12pt; 
+}
+
+.btn8{
+     background-color: grey;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: none;
+    font-size: 12pt; 
+}
+
+.btn9{
+     background-color: grey;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: none;
+    font-size: 12pt; 
+}
+.btnMulti{
+    background-color: rgb(255, 132, 0);
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: none;
+    font-size: 12pt; 
+}
+
+.btn4{
+     background-color: grey;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: none;
+    font-size: 12pt; 
+}
+.btn5{
+     background-color: grey;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: none;
+    font-size: 12pt; 
+}
+.btn6{
+     background-color: grey;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: none;
+    font-size: 12pt; 
+}
+.btnMinus{
+    background-color: rgb(255, 132, 0);
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: none;
+    font-size: 12pt; 
+}
+
+.btn1{
+     background-color: grey;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: none;
+    font-size: 12pt; 
+}
+.btn2{
+     background-color: grey;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: none;
+    font-size: 12pt; 
+}
+.btn3{
+     background-color: grey;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: none;
+    font-size: 12pt; 
+}
+.btnPlus{
+    background-color: rgb(255, 132, 0);
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: none;
+    font-size: 12pt; 
+}
+
+.btn0{
+    background-color: grey;
+    height: 50px;
+    width: 130px;
+    border-radius: 30px;
+    border: none;
+    font-size: 12pt; 
+}
+
+.btnDot{
+     background-color: grey;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: none;
+    font-size: 12pt; 
+}
+.btnEqual{
+    background-color: rgb(255, 132, 0);
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: none;
+    font-size: 12pt; 
+}
