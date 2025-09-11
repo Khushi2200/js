@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <Script src="InvoiceGen.js"></Script>
+   <!-- jsPDF -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<!-- jsPDF AutoTable plugin -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.28/jspdf.plugin.autotable.min.js"></script>
+
+<script src="InvoiceGen.js"></script>
+
     <title>Document</title>
 </head>
 <body>
@@ -25,7 +31,7 @@
                 <input type="text" id="ProdPrice" placeholder="Product Price" class="in"><br><br>
                 <input type="text" id="SGST" placeholder="SGST" class="in"><br><br>
                 <input type="text" id="CGST" placeholder="CGST" class="in"><br><br>
-                <button class="btn">Submit</button>
+                <button class="btn" onclick="invoice() ">Submit</button>
             </div>
         </div>
     </div>
